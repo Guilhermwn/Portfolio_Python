@@ -10,7 +10,7 @@ import pandas as pd
 # - Peso bruto
 
 def pegar_info(nome_arquivo, valores):
-    print(f"Arquivo {arquivo} acessado com sucesso!")
+    print(f"Arquivo {nome_arquivo} acessado com sucesso!")
     with open(f"nfs/{nome_arquivo}", "rb") as arquivo_xml: 
         dic_arquivo = xmltodict.parse(arquivo_xml)
 
